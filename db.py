@@ -114,4 +114,14 @@ def main():
 
 
 
-main()
+def re():
+    passcode()
+def passcode():
+    if password == "voodoochild":
+        main()
+    else:
+        print("Mot de passe incorrect!!!")
+        re()
+        
+passcode()
+ 
