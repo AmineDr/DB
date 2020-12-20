@@ -111,17 +111,4 @@ def main():
     root.geometry("200x200")
     root.mainloop()
     
-
-
-
-def re():
-    passcode()
-def passcode():
-    if password == "voodoochild":
-        main()
-    else:
-        print("Mot de passe incorrect!!!")
-        re()
-        
-passcode()
- 
+main() 
